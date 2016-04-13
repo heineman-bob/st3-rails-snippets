@@ -1,0 +1,18 @@
+  <snippet>
+  <content>
+    <![CDATA[
+adapter: mysql2
+encoding: utf8
+pool: 5
+reconnect: true
+database: <%= ENV['${1:MYAPP}_RDS_DB_NAME'] %>
+username: <%= ENV['${1:MYAPP}_RDS_DB_USERNAME'] %>
+password: <%= ENV['${1:MYAPP}_RDS_DB_PASSWORD'] %>
+host: <%= ENV['${1:MYAPP}_RDS_DB_HOSTNAME'] %>
+port: <%= ENV['${1:MYAPP}_RDS_DB_PORT'] %>
+pool: 5
+timeout: 5000
+  ]]>
+  </content>
+  <tabTrigger>rails-database-yml-mysql</tabTrigger>
+</snippet>
