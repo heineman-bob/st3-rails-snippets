@@ -1,0 +1,29 @@
+<snippet>
+  <content>
+    <![CDATA[
+group :development, :test do
+  gem 'railroady'
+  gem 'spring'
+  gem 'rails-erd'
+  gem 'yard'
+  gem 'rubocop', require: false
+  gem 'ruby-lint', require: false
+  gem 'simplecov', require: false
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'rspec_api_documentation'
+  gem 'seed_dump'
+end
+
+group :test do
+  gem 'sqlite3'
+  gem 'faker'
+  gem 'capybara'
+  gem 'guard-rspec'
+  gem 'launchy'
+  gem 'database_cleaner'
+end
+    ]]>
+  </content>
+  <tabTrigger>rails-testing-gems</tabTrigger>
+</snippet>
