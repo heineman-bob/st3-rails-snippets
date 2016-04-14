@@ -1,0 +1,12 @@
+<snippet>
+<content>
+  <![CDATA[
+ZendeskAPI::Client.new do |config|
+  config.username = '${1:username}'
+  config.token = '${2:token}'
+  config.url = '${3:url}'
+end
+  ]]>
+</content>
+<tabTrigger>rails-zendesk-client</tabTrigger>
+</snippet>
