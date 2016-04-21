@@ -1,0 +1,13 @@
+<snippet>
+<content>
+  <![CDATA[
+# ${1:Document the responsibility of the class}
+#
+# == ${2:Heading}
+#
+# ${3:Use headings to break up descriptions}
+#
+  ]]>
+</content>
+<tabTrigger>rails-doc-class</tabTrigger>
+</snippet>

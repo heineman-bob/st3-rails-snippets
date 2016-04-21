@@ -1,0 +1,13 @@
+  <snippet>
+  <content>
+    <![CDATA[
+config.logger = RemoteSyslogLogger.new(
+  'logs3.papertrailapp.com',
+  514_90,
+  program: 'rails-logger',
+  local_hostname: ENV['${1:TEST}_APP_NAME'] +
+  '-' + ENV['RACK_ENV'])
+  ]]>
+  </content>
+  <tabTrigger>rails-papertrail-logging-config</tabTrigger>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+<content>
+  <![CDATA[
+# ${1:Document the responsibility of the method}
+#
+# @params ${2:input} [${3:type}] ${4:description}
+# @return [${5:Object}] ${6:description}
+  ]]>
+}
+}
+</content>
+<tabTrigger>rails-doc-method</tabTrigger>
+</snippet>
